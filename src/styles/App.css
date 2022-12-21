@@ -1,0 +1,12 @@
+ html {
+   background: #FFB571;
+   height: 100%;
+   display: flex;
+   }
+   body {
+   width: 100%;
+   }
+   
+   .App {
+   font-family: sans-serif;
+   }
