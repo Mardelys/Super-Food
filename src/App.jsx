@@ -4,9 +4,9 @@ import '../src/styles/App.css'
 import MenuBannerFooter from '../src/components/MenuBannerFooter';
 
 function App() {
-   return (<div
-className="App">
-   <MenuBannerFooter/>
+   return (
+<div className="App">
+      <MenuBannerFooter />
 </div>); 
 }
 export default App;
