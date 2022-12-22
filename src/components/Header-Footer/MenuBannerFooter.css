@@ -1,0 +1,63 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+
+header div{
+   width: 100%;
+   height: 17%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   justify-items: center;
+   background-color: #000;
+}
+.img-logo{
+   width: 105px;
+   margin: 0 5%;
+}
+
+.btn-product{
+   width: clamp(60%,50%,0%);
+   height: clamp(30%,20%,20%);
+   font-size: clamp(.7rem, 2vw, 1.1rem);
+   background-image: linear-gradient( 178.2deg,  rgba(221,225,10,1) 2.7%, rgba(235,1,1,1) 102.9% );
+   border: none;
+   border-radius: 20px;
+   font-weight: 600;
+   cursor: pointer;
+   padding: 5px;
+}
+
+.navigation ul{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 10%;
+   text-decoration: none;
+   list-style: none;
+
+}
+
+
+.icon-li{
+   font-size: clamp(1.8rem, 3vw, 2.2rem);
+   color: rgb(255, 128, 0);
+}
+
+footer{ 
+   width: 100%;
+   display:flex;
+   background-color: #000;
+   color: rgb(192, 189, 189);
+   text-align: center;
+   align-items: center;
+  
+}
+.container-banner{
+   position: absolute;
+   width: 100%;
+}
+.banner{
+   width: 100vw;
+}
