@@ -1,9 +1,10 @@
 import React from "react";
+import './ShoppingCar.css'
 
 
 const ShoppingCar = () => {
    return (
-      <div>Carrito</div>
+      <h1>Carrito de compra</h1>
    )}
 
    export default ShoppingCar;

@@ -1,9 +1,9 @@
 import React from "react";
-
+import './Home.css'
 
 const Home = () => {
    return (
-      <div>Categorias</div>
+      <h1>Acerca de Nosotros</h1>
    )}
 
    export default Home;
