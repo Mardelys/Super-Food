@@ -1,7 +1,7 @@
 import React from "react";
 import './Category.css'
 
-const Category = () => {
+function Category(){
    return (
       <h1>Categorias</h1>
    )}

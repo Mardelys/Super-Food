@@ -3,7 +3,7 @@ import  LogoPrincipal from './images/Logo.png'
 import './MenuBannerFooter.css'
 
 
-const Footer = () => {
+function Footer() {
    return (
       <footer>
       <img src={LogoPrincipal} className="img-logo" alt="Logo Marde" />
