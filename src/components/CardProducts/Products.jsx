@@ -3,6 +3,7 @@ import './CardProducts.css'
 //import {Link } from 'react-router-dom'
 import CardProducts from "./CardProducts"
 
+
 export default function Combos(){
    return (
  <><section className="container-cards-products">
@@ -10,67 +11,178 @@ export default function Combos(){
     image="combo1"
     title="Combo #1"
     description="1 Hamburguesa y 2 Perros calientes sencillos"
-    price="4.0"
-  />
+    price="4.0"/>
   <CardProducts
   image="combo2"
   title="Combo #2"
   description="3 Perros calientes sencillos"
-  price="4.0"
-/></section>
+  price="4.0"/>
+   <CardProducts
+  image="combo3"
+  title="Combo #3"
+  description="4 Hamburguesas sencillas y 2 Perros calientes sencillos"
+  price="8.0"/>
+   <CardProducts
+  image="combo4"
+  title="Combo #4"
+  description="4 Hamburguesas sencillas y 1 refresco"
+  price="8.0"/>
+   <CardProducts
+  image="combo5"
+  title="Combo #5"
+  description="5 Perros calientes sencillos y 1 refresco"
+  price="8.0"/>
+   <CardProducts
+  image="combo6"
+  title="Combo #6"
+  description=" 2 Hamburguesas sencillas, 3 Perros calientes sencillos y 1 refresco"
+  price="8.0"/>
+</section>
 </>
    )}
 
    export function Hamburguesas(){
       return (
-   
-      <CardProducts
-       image="combo2"
-       title="Hamburguesa"
-       description="1 Hamburguesa y 2 Perros calientes sencillos"
-       price="4.0"
-     />
+         <section className="container-cards-products">
+         <CardProducts
+         image="gustosa1"
+         title="H. Sencilla de Carne"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, carne, lechuga, tomate y papitas. "
+         price="2.5"/>
+
+         <CardProducts
+         image="gustosa1"
+         title="H. Sencilla de Pollo"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, Pollo, lechuga, tomate y papitas. "
+         price="3.5"/>
+
+         <CardProducts
+         image="gustosa1"
+         title="H. Sencilla de Lomito"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, Lomito, lechuga, tomate y papitas. "
+         price="3.5"/>
+
+         <CardProducts
+         image="gustosa"
+         title="H. Gustosa de Carne"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, Carne, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
+         price="5.0"/>
+
+         <CardProducts
+         image="gustosa"
+         title="H. Gustosa de Pollo"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, Pollo, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
+         price="6.0"/>
+
+         <CardProducts
+         image="gustosa"
+         title="H. Gustosa de Lomito"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, Lomito, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
+         price="6.0"/>
+
+         <CardProducts
+         image="gustosa1"
+         title="H. Ovejitos 2 carnes"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
+         price="8.5"/>
+
+         <CardProducts
+         image="gustosa1"
+         title="H. Ovejitos 3 carnes"
+         description="Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
+         price="10.0"/>
+      </section>
+
       )}
 
-      export function Perros(){
-         return (
-      
+export function Perros(){
+   return (
+      <section className="container-cards-products">
          <CardProducts
-          image="combo2"
-          title="Perros"
-          description="1 Hamburguesa y 2 Perros calientes sencillos"
-          price="4.0"
-        />
-         )}
-         export function Patacones(){
-            return (
+         image="perro"
+         title="Perro Caliente Sencillo"
+         description="Ingredientes: Salchicha, papitas, mayonesa, salsa de tomate, mostaza, ensalada y queso rallado."
+         price="2.0"/>
+
+         <CardProducts
+         image="perro"
+         title="Perro Caliente Especial"
+         description="Ingredientes: Salchicha, papitas, mayonesa, salsa de tomate, mostaza, ensalada, queso rallado, queso de mano, jamón ahumado y huevo."
+         price="2.5"/>
+   </section>
+)}
+
+
+export function Patacones(){
+   return (
          
-            <CardProducts
-             image="combo2"
-             title="Patacones"
-             description="1 Hamburguesa y 2 Perros calientes sencillos"
-             price="4.0"
-           />
-            )}
-            export function Arepas(){
-               return (
-            
-               <CardProducts
-                image="combo2"
-                title="Arepa"
-                description="1 Hamburguesa y 2 Perros calientes sencillos"
-                price="4.0"
-              />
-               )}
-               export function Gya(){
-                  return (
+   <section className="container-cards-products">
+      <CardProducts image="patacon"
+         title="Patacón Carne mechada"
+         description="Ingredientes: Patacón platano verde x2, carne mechada, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate"
+         price="8.0"/>
+      
+      <CardProducts
+         image="patacon1"
+         title="Patacón de Pollo"
+         description="Ingredientes: Patacón platano verde x2, Pollo, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate"
+         price="9.5"/>
+
+      <CardProducts
+         image="patacon1"
+         title="Patacón de Lomito"
+         description="Ingredientes: Patacón platano verde x2, Lomito, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate"
+         price="9.5"/>
+   </section>
+)}
+
+
+
+export function Arepas(){
+   return (
+      <section className="container-cards-products">
+         <CardProducts
+         image="arepa"
+         title="Arepa de Carne Mechada"
+         description="Ingredientes: Arepa,Carne mechada, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate"
+         price="4.0"/>
+
+         <CardProducts
+         image="arepa"
+         title="Arepa de Pollo"
+         description="Ingredientes: Arepa, Pollo, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate"
+         price="6.0"/>
+
+        <CardProducts
+         image="arepa"
+         title="Arepa de Lomito"
+         description="Ingredientes: Arepa,Lomito, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate"
+         price="6.0"/>
+
+        <CardProducts
+         image="arepa"
+         title="Arepa Mixta doble"
+         description="Ingredientes: 2 Arepas,Carne mechada, pollo o lomito, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate"
+         price="8.0"/>
+      </section>
+)}
+export function Gya(){
+   return (
+   <section className="container-cards-products">
+       <CardProducts
+      image="refresco1"
+      title="Refresco pequeño(Personal)"
+      price="0.8"/>
+      <CardProducts
+      image="refresco2"
+      title="Refresco retornable 1.25L"
+      price="1.6"/>
+      <CardProducts
+      image="refresco3"
+      title="Refresco 1.5L"
+      price="2.5"/>
+   </section>
                
-                  <CardProducts
-                   image="combo2"
-                   title="Gaseosa"
-                   description="1 Hamburguesa y 2 Perros calientes sencillos"
-                   price="4.0"
-                 />
                   )}
             
 

@@ -1,33 +1,76 @@
 .container-card{
 width: 90%;
-height: 100%;
-background-color: #faf0b9;
-padding: 1%;
+
+background-color: #eeece3;
+padding: 1% 0 5% 0;
 margin: 15% 1%;
 text-align: center;
 border-radius: 10px;
-box-shadow: rgb(148, 138, 138) 0px 1px 5px;
+box-shadow: #948a8a 0px 1px 5px;
 }
 .img-card{
- width: 160px;
+ width: 80%;
+ height: 35%;
  margin: 5% 0;
  border-radius: 10px;
- box-shadow: #000 1px 1px 5px;
+
+ 
 }
 .title-card{
    font-family: 'Kavoon',sans-serif;
+   font-weight: 100;
+   color: #ff8000;
+   text-shadow: #000000 1px 1px;
+   font-size: clamp(1.5rem,2vw,1.2rem);
 }
 .description-card{
-   font-size: clamp(.8rem,2vw,2rem);
+   font-size: clamp(.9rem,2vw,1.2rem);
    padding: 3%;
+   height: 25%;
+   text-align:left;
+   
 
 }
 .price-card{
-
+   width: 100px;
+   margin-left: 25%;
+   background-color: #fff5f5;
+   padding: 5px;
+   border-radius: 5px;
+   font-weight: 600;
+   color: #ff8000;
+   font-size: 22px;
+   
 }
 .container-cards-products{
    width: 100%;
    display: grid;
    grid-template-columns: 1fr 1fr;
   justify-items: center;
+}
+.btn-add{
+
+   border: none;
+   margin: 20px 0 70px 0px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   font-size: 17px;
+   font-weight: 600;
+   background-color: #ffd904;
+   color: #000;
+   box-shadow: #ff8000 2px 2px ;
+   cursor: pointer;
+   
+}
+.sc-card{
+ font-size: 17px;
+}
+
+@media (min-width: 800px){
+   .container-cards-products{
+      grid-template-columns: repeat(4, 22%);
+      margin-left: 5%;
+
+
+   }
 }

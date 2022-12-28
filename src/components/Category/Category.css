@@ -13,6 +13,7 @@
    margin: 15px 5px;
     align-items: center;
    display: flex;
+   background-color: #ffd104;
    flex-direction: column;
    background-image: radial-gradient( circle farthest-corner at 10% 20%,  #fcff697a 0%, rgba(233,112,0,0.58) 100% );
    box-shadow: 2px 2px  4px  #2c2626;
@@ -22,18 +23,17 @@
    
 }
 .img-category{
-   width: 100px;
+   width: 110px;
+   height: 100px;
 }
 .title-cat-especify{
-   font-size: clamp(.7rem,2vw,1rem);
+   font-size: clamp(.7rem,2vw,1.1rem);
    font-family: 'Kavoon';
    font-weight: 200;
-   color: #ff8000;
+   color: #000000;
    padding: 5px;
    width: 100%;
    border-radius: 10px;
-   background-color: #000000;
-   box-shadow: #ff8000 2px 2px ;
 }
 .container-six-category{
   display: grid;
@@ -57,6 +57,7 @@ align-items: center;
 
 
    .img-category{
-      width: 65%;
+      width: 150px;
+      height: 120px;
    }
 }

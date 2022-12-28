@@ -1,6 +1,6 @@
 import React from "react";
 import './CardProducts.css'
-//import {Link } from 'react-router-dom'
+import {MdShoppingCart} from 'react-icons/md'
 
 function CardProducts({image, title, description, price}){
    return (
@@ -9,6 +9,7 @@ function CardProducts({image, title, description, price}){
          <h2 className="title-card"> {title}</h2>
          <p className="description-card">{description}</p>
          <p className="price-card">{price} $</p>
+         <button className="btn-add">Agregar <MdShoppingCart className="sc-card"/> </button>
       </div>
    )}
 
