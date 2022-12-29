@@ -30,7 +30,7 @@ function Home() {
          <img  className="img-food" src={require("./images/home2.png")} alt="" />
          <img  className="img-food" src={require("./images/home3.png")} alt="" />
          </div>
-         <Link to="/category"><button className='btn-product fixed'>Haz tu Pedido</button></Link>
+         <Link to="/combos"><button className='btn-product fixed'>Haz tu Pedido</button></Link>
       </section>
       </>
    )}

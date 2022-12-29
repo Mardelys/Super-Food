@@ -1,7 +1,7 @@
 import React from "react";
 import './CardProducts.css'
 //import {Link } from 'react-router-dom'
-import CardProducts from "./CardProducts"
+import CardProducts, {CardProductsAd} from "./CardProducts"
 
 
 export default function Combos(){
@@ -168,6 +168,7 @@ export function Arepas(){
 )}
 export function Gya(){
    return (
+   <>
    <section className="container-cards-products">
        <CardProducts
       image="refresco1"
@@ -182,6 +183,25 @@ export function Gya(){
       title="Refresco 1.5L"
       price="2.5"/>
    </section>
+  <div className="container-card-adic">
+  <CardProductsAd title="Huevo"
+      price="0.3"/>
+   <CardProductsAd title="Papas Fritas"
+      price="2.5"/>
+   <CardProductsAd title="Queso de mano"
+      price="1.0"/>
+<CardProductsAd title="Arepa"
+      price="0.5"/>
+<CardProductsAd title="Salsas"
+      price="0.5"/>
+<CardProductsAd title="Tocineta"
+      price="1.0"/>
+   <CardProductsAd title="Salsa de Aguacate"
+      price="1.0"/>
+   <CardProductsAd title="Tajadas"
+      price="0.5"/>
+  </div>
+   </>
                
                   )}
             

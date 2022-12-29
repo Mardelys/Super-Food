@@ -1,6 +1,5 @@
 .container-card{
 width: 90%;
-
 background-color: #eeece3;
 padding: 1% 0 5% 0;
 margin: 15% 1%;
@@ -31,7 +30,7 @@ box-shadow: #948a8a 0px 1px 5px;
    
 
 }
-.price-card{
+.price-card, .price-card1{
    width: 100px;
    margin-left: 25%;
    background-color: #fff5f5;
@@ -42,6 +41,9 @@ box-shadow: #948a8a 0px 1px 5px;
    font-size: 22px;
    
 }
+.price-card1{
+   margin:0;
+}
 .container-cards-products{
    width: 100%;
    display: grid;
@@ -51,7 +53,7 @@ box-shadow: #948a8a 0px 1px 5px;
 .btn-add{
 
    border: none;
-   margin: 20px 0 70px 0px;
+   margin: 20px 2px 20px 0px;
    padding: 10px 20px;
    border-radius: 10px;
    font-size: 17px;
@@ -65,12 +67,30 @@ box-shadow: #948a8a 0px 1px 5px;
 .sc-card{
  font-size: 17px;
 }
+.container-card-adic{
+display: grid;
+margin: auto;
+}
+.product-adic{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width:90%;
+   margin: 5px auto;
+   padding: 5px;
+   background-color: #eeece3;
+   justify-content: space-between;
+   border-radius: 20px;
+}
 
 @media (min-width: 800px){
    .container-cards-products{
       grid-template-columns: repeat(4, 22%);
       margin-left: 5%;
-
-
    }
+
+   .container-card-adic{
+      display: grid;
+      grid-template-columns: repeat(3,50%);
+}
 }
