@@ -6,7 +6,9 @@ import CardProducts, {CardProductsAd} from "./CardProducts"
 
 export default function Combos(){
    return (
- <><section className="container-cards-products">
+ <>
+ <h1 className="titulo-section">Combos</h1>
+ <section className="container-cards-products">
    <CardProducts
     image="combo1"
     title="Combo #1"
@@ -43,6 +45,8 @@ export default function Combos(){
 
    export function Hamburguesas(){
       return (
+         <>
+         <h1 className="titulo-section">Hamburguesas</h1>
          <section className="container-cards-products">
          <CardProducts
          image="gustosa1"
@@ -92,11 +96,14 @@ export default function Combos(){
          description="Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
          price="10.0"/>
       </section>
+      </>
 
       )}
 
 export function Perros(){
    return (
+      <>
+     <h1 className="titulo-section">Perros Calientes</h1>
       <section className="container-cards-products">
          <CardProducts
          image="perro"
@@ -110,12 +117,14 @@ export function Perros(){
          description="Ingredientes: Salchicha, papitas, mayonesa, salsa de tomate, mostaza, ensalada, queso rallado, queso de mano, jamón ahumado y huevo."
          price="2.5"/>
    </section>
+   </>
 )}
 
 
 export function Patacones(){
    return (
-         
+      <>
+      <h1 className="titulo-section">Patacones</h1>
    <section className="container-cards-products">
       <CardProducts image="patacon"
          title="Patacón Carne mechada"
@@ -133,14 +142,17 @@ export function Patacones(){
          title="Patacón de Lomito"
          description="Ingredientes: Patacón platano verde x2, Lomito, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate"
          price="9.5"/>
-   </section>
+   </section></>
 )}
 
 
 
 export function Arepas(){
    return (
+      <>
+   <h1 className="titulo-section">Arepitas Cabimeras</h1>
       <section className="container-cards-products">
+         
          <CardProducts
          image="arepa"
          title="Arepa de Carne Mechada"
@@ -165,10 +177,13 @@ export function Arepas(){
          description="Ingredientes: 2 Arepas,Carne mechada, pollo o lomito, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate"
          price="8.0"/>
       </section>
+      </>
 )}
 export function Gya(){
    return (
    <>
+
+ <h1 className="titulo-section">Gaseosas y Adicionales</h1>
    <section className="container-cards-products">
        <CardProducts
       image="refresco1"
