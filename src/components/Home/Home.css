@@ -17,8 +17,9 @@
    margin: auto;
    padding: 20px;
    text-align: justify;
-   font-size: clamp(1rem, 2vw, 2rem);
+   font-size: clamp(1rem, 2.2vw, 2rem);
    text-indent: 20px;
+   font-family: 'Dosis';
 }
 .container-about-us{
    text-align: center;

@@ -183,7 +183,7 @@ export function Gya(){
    return (
    <>
 
- <h1 className="titulo-section">Gaseosas y Adicionales</h1>
+ <h1 className="titulo-section">Bebidas y Adicionales</h1>
    <section className="container-cards-products">
        <CardProducts
       image="refresco1"

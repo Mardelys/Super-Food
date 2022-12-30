@@ -1,0 +1,94 @@
+.title-car{
+   font-size: clamp(2rem, 4vw, 3rem);
+   color: #ff8000;
+   background-color:#000000 ;
+   text-align: center;
+   font-family: 'Kavoon', cursive;
+   font-weight: 300;
+   text-shadow: 2px 0  #dde10a;
+}
+.cars-shopping{
+ width:100%;
+}
+.car-shopping{
+  width: 97%;
+  margin: auto;
+}
+.carshopping_center{
+   width: 100%;
+   margin: 10px auto;
+   padding: 3px;
+}
+.carshopping_item{
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr .5fr;
+   margin: 1rem auto;
+   box-shadow: 0 1px 10px #a5a4a4;
+   padding: 10px;
+   border-radius: 10px;
+   align-items: center;
+   
+}
+.carshopping_item img{
+   width:9rem ;
+}
+.carshopping_item h3{
+   margin-top: .7rem;
+   font-family: 'Dosis';
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+.carshopping_item .price{
+   color: #ff8000;
+   font-weight: 600;
+   font-size: 1.5rem;
+   text-align: center;
+}
+.carshopping_item .ico{
+   color: #ff8000;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   
+}
+.n-items-select{
+   display: flex;
+   justify-content: center;
+}
+.carshopping_item .n-items{
+   margin: 5px;
+   font-size: 1.1rem;
+   font-weight: bold;
+}
+.carshopping_item .remove_item .ico{
+   width: 60px;
+   height: 35px;
+   color: #c90b0b;
+}
+.carshopping_total{
+   text-align: center;
+   margin-bottom: 3rem;
+}
+.carshopping_total h3{
+   font-size: 2rem;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.carshopping_total .btn{
+   display: inline-block;
+   padding: .3rem 1rem;
+   font-size: 1.2rem;
+   border: none;
+   font-weight: 700;
+   background-image: linear-gradient( 178.2deg,  #dde10a 2.7%, rgba(235,1,1,1) 102.9% );
+   border-radius: 10px;
+   cursor: pointer;
+}
+.cars-shopping .p-info{
+   color: #777474;
+   padding: 2%;
+}
+
+.carshopping_total .btn:hover{
+   background: #dde10a;
+}

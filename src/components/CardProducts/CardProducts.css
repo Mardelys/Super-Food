@@ -6,7 +6,6 @@
    font-size: clamp(2rem,3vw, 4rem);
    color: #000000;
    background-image: linear-gradient( 178.2deg,  hsl(61, 91%, 46%) 0.7%, rgba(235,1,1,1) 138.9% );
-   text-shadow: #ff8000 2px 2px;
    padding: 1%;
 }
 .container-card{
@@ -34,10 +33,11 @@ box-shadow: #948a8a 0px 1px 5px;
    font-size: clamp(1.5rem,2vw,1.2rem);
 }
 .description-card{
-   font-size: clamp(.8rem,2vw,1rem);
+   font-size: clamp(.8rem,1.8vw,1rem);
    padding: 3%;
    height: 25%;
    text-align:left;
+   font-family: 'Dosis';
    
 
 }
