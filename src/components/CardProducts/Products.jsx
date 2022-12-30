@@ -6,13 +6,15 @@ import { ProductItems } from "./Items";
 
 
 export default function Combos(){
-
+  // console.log(ProductItems);
    return (
  <>
  <h1 className="titulo-section">Combos</h1>
  <section className="container-cards-products">
    {ProductItems.items.filter(product=> product.category === "combo" ).map(product=>(<CardProducts
-   key={product.id}
+    key={product.id}
+    id={product.id}
+   index={product.index}
     image={product.image}
     title={product.title}
     description={product.description}
@@ -30,8 +32,10 @@ export default function Combos(){
          <section className="container-cards-products">
          {ProductItems.items.filter(product=> product.category === "hamburguesa" ).map(product=>(<CardProducts
    key={product.id}
+   id={product.id}
     image={product.image}
     title={product.title}
+    index={product.index}
     description={product.description}
     price={product.price}/>))}
       </section>
@@ -45,9 +49,11 @@ export function Perros(){
      <h1 className="titulo-section">Perros Calientes</h1>
       <section className="container-cards-products">
       {ProductItems.items.filter(product=> product.category === "perro" ).map(product=>(<CardProducts
-   key={product.id}
+    key={product.id}
+    id={product.id}
     image={product.image}
     title={product.title}
+    index={product.index}
     description={product.description}
     price={product.price}/>))}
    </section>
@@ -61,8 +67,10 @@ export function Patacones(){
       <h1 className="titulo-section">Patacones</h1>
    <section className="container-cards-products">
    {ProductItems.items.filter(product=> product.category === "patacon" ).map(product=>(<CardProducts
-   key={product.id}
+    key={product.id}
+    id={product.id}
     image={product.image}
+    index={product.index}
     title={product.title}
     description={product.description}
     price={product.price}/>))}
@@ -76,24 +84,29 @@ export function Arepas(){
    <h1 className="titulo-section">Arepitas Cabimeras</h1>
       <section className="container-cards-products">
       {ProductItems.items.filter(product=> product.category === "arepa" ).map(product=>(<CardProducts
-   key={product.id}
+    key={product.id}
+    id={product.id}
     image={product.image}
     title={product.title}
+    index={product.index}
     description={product.description}
     price={product.price}/>))}
       </section>
       </>
 )}
 export function Gya(){
+
    return (
    <>
 
  <h1 className="titulo-section">Bebidas y Adicionales</h1>
    <section className="container-cards-products">
    {ProductItems.items.filter(product=> product.category === "gya" ).map(product=>(<CardProducts
+   id={product.id}
    key={product.id}
     image={product.image}
     title={product.title}
+    index={product.index}
     description={product.description}
     price={product.price}/>))}
    </section>
@@ -101,6 +114,8 @@ export function Gya(){
 
   {ProductItems.items.filter(product=> product.category === "adic").map(product=>(<CardProductsAd
    key={product.id}
+   id={product.id}
+   index={product.index}
    title={product.title}
    price={product.price}/>))}
 
