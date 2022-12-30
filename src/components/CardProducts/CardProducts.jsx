@@ -1,8 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import './CardProducts.css'
 import {MdShoppingCart} from 'react-icons/md'
+import { DataContext} from "../context/DataProvider";
 
 function CardProducts({image, title, description, price}){
+   const value= useContext(DataContext)
+   const [products] = value.products
+
+console.log(products);
+   
    return (
       <div className="container-card">
          <img  className="img-card" src={require(`./images/img-${image}.png`)} alt="" />

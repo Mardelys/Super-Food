@@ -1,20 +1,27 @@
-import React from "react";
+import React, {useContext} from "react";
 import './CardProducts.css'
 //import {Link } from 'react-router-dom'
 import CardProducts, {CardProductsAd} from "./CardProducts"
+import { ProductItem } from "./Items";
 
+import { DataContext} from "../context/DataProvider";
 
 export default function Combos(){
+
+
+  
    return (
  <>
  <h1 className="titulo-section">Combos</h1>
  <section className="container-cards-products">
-   <CardProducts
-    image="combo1"
-    title="Combo #1"
-    description="1 Hamburguesa y 2 Perros calientes sencillos"
-    price="4.0"/>
-  <CardProducts
+   {ProductItem.filter(product=> product.category === "combo" ).map(product=>(<CardProducts
+   key={product.id}
+    image={product.image}
+    title={product.title}
+    description={product.description}
+    price={product.price}/>))}
+   
+ {/*  <CardProducts
   image="combo2"
   title="Combo #2"
   description="3 Perros calientes sencillos"
@@ -38,7 +45,8 @@ export default function Combos(){
   image="combo6"
   title="Combo #6"
   description=" 2 Hamburguesas sencillas, 3 Perros calientes sencillos y 1 refresco"
-  price="8.0"/>
+  price="8.0"/>*/}
+            
 </section>
 </>
    )}
@@ -47,8 +55,15 @@ export default function Combos(){
       return (
          <>
          <h1 className="titulo-section">Hamburguesas</h1>
+
          <section className="container-cards-products">
-         <CardProducts
+         {ProductItem.filter(product=> product.category === "hamburguesa" ).map(product=>(<CardProducts
+   key={product.id}
+    image={product.image}
+    title={product.title}
+    description={product.description}
+    price={product.price}/>))}
+         {/*<CardProducts
          image="gustosa1"
          title="H. Sencilla de Carne"
          description="Ingredientes: Mayonesa, mostaza, salsa de tomate, carne, lechuga, tomate y papitas. "
@@ -94,7 +109,7 @@ export default function Combos(){
          image="gustosa1"
          title="H. Ovejitos 3 carnes"
          description="Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. "
-         price="10.0"/>
+         price="10.0"/>*/}
       </section>
       </>
 
@@ -219,6 +234,5 @@ export function Gya(){
    </>
                
                   )}
-            
 
    
