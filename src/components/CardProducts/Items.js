@@ -26,7 +26,7 @@ items:[
       description:"4 Hamburguesas sencillas y 2 Perros calientes sencillos",
       price:"8.0",
       category:"combo",
-      quantity:"1"
+      quantity:1
    },
    {
       id:4,
@@ -35,7 +35,8 @@ items:[
       description:"4 Hamburguesas sencillas y 1 refresco",
       price:"8.0",
       category:"combo",
-      quantity:"1"
+      quantity:1
+   
    },
    {
       id:5,
@@ -44,7 +45,7 @@ items:[
       description:"5 Perros calientes sencillos y 1 refresco",
       price:"8.0",
       category:"combo",
-      quantity:"1"
+      quantity:1
    },
    {
       id:6,
@@ -53,7 +54,7 @@ items:[
       description:" 2 Hamburguesas sencillas, 3 Perros calientes sencillos y 1 refresco",
       price:"8.0",
       category:"combo",
-      quantity:"1"
+      quantity:1
    },
    {
       id:7,
@@ -62,7 +63,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, carne, lechuga, tomate y papitas. ",
       price:"2.5",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },
    {
       id:8,
@@ -71,7 +72,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Pollo, lechuga, tomate y papitas. ",
       price:"3.5",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },
    {
       id:9,
@@ -80,7 +81,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Lomito, lechuga, tomate y papitas. ",
       price:"3.5",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },{
       id:10,
       image:"gustosa",
@@ -88,7 +89,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Carne, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"5.0",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },{
       id:11,
       image:"gustosa",
@@ -96,7 +97,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Pollo, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"6.0",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },{
       id:12,
       image:"gustosa",
@@ -104,7 +105,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Lomito, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"6.0",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },{
       id:13,
       image:"gustosa1",
@@ -112,7 +113,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"8.5",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },{
       id:14,
       image:"gustosa1",
@@ -120,7 +121,7 @@ items:[
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"10.0",
       category:"hamburguesa",
-      quantity:"1"
+      quantity:1
    },{
       id:15,
       image:"perro",
@@ -128,7 +129,7 @@ items:[
       description:"Ingredientes: Salchicha, papitas, mayonesa, salsa de tomate, mostaza, ensalada y queso rallado.",
       price:"2.0",
       category:"perro",
-      quantity:"1"
+      quantity:1
    },{
       id:16,
       image:"perro",
@@ -136,7 +137,7 @@ items:[
       description:"Ingredientes: Salchicha, papitas, mayonesa, salsa de tomate, mostaza, ensalada, queso rallado, queso de mano, jamón ahumado y huevo.",
       price:"2.5",
       category:"perro",
-      quantity:"1"
+      quantity:1
    },{
       id:17,
       image:"patacon",
@@ -144,7 +145,7 @@ items:[
       description:"Ingredientes: Patacón platano verde x2, carne mechada, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate",
       price:"8.0",
       category:"patacon",
-      quantity:"1"
+      quantity:1
    },{
       id:18,
       image:"patacon1",
@@ -152,7 +153,7 @@ items:[
       description:"Ingredientes: Patacón platano verde x2, Pollo, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate",
       price:"9.5",
       category:"patacon",
-      quantity:"1"
+      quantity:1
    },{
       id:19,
       image:"patacon1",
@@ -160,7 +161,7 @@ items:[
       description:"Ingredientes: Patacón platano verde x2, Lomito, verduras, queso de mano, jamón ahumado, queso rallado, mayonesa, salsa de tomate, mostaza y salsa de aguacate",
       price:"9.5",
       category:"patacon",
-      quantity:"1"
+      quantity:1
    },{
       id:20,
       image:"arepa",
@@ -168,7 +169,7 @@ items:[
       description:"Ingredientes: Arepa,Carne mechada, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate",
       price:"4.0",
       category:"arepa",
-      quantity:"1"
+      quantity:1
    },{
       id:21,
       image:"arepa",
@@ -176,7 +177,7 @@ items:[
       description:"Ingredientes: Arepa, Pollo, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate",
       price:"6.0",
       category:"arepa",
-      quantity:"1"
+      quantity:1
    },{
       id:22,
       image:"arepa",
@@ -184,7 +185,7 @@ items:[
       description:"Ingredientes: Arepa,Lomito, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate",
       price:"6.0",
       category:"arepa",
-      quantity:"1"
+      quantity:1
    },{
       id:23,
       image:"arepa",
@@ -192,7 +193,7 @@ items:[
       description:"Ingredientes: 2 Arepas,Carne mechada, pollo o lomito, ensalada(repollo,zanahoria), huevo, jamón ahumado,queso rallado, salsa de tomate, mayonesa, mostaza y salsa de aguacate",
       price:"8.0",
       category:"arepa",
-      quantity:"1"
+      quantity:1
    },
    {
       id:24,
@@ -200,74 +201,74 @@ items:[
       title:"Refresco pequeño(Personal)",
       price:"0.8",
       category:"gya",
-      quantity:"1"
+      quantity:1
    },{
       id:25,
       image:"refresco2",
       title:"Refresco retornable 1.25L",
       price:"1.6",
       category:"gya",
-      quantity:"1"
+      quantity:1
    },{
       id:26,
       image:"refresco3",
       title:"Refresco 1.5L",
       price:"2.5",
       category:"gya",
-      quantity:"1"
+      quantity:1
    },{
       id:27,
       title:"Huevo",
       price:"0.3",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },{
       id:28,
       title:"Papas Fritas",
       price:"2.5",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
    {
       id:29,
       title:"Queso de mano",
       price:"1.0",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
    {
       id:30,
       title:"Arepa",
       price:"0.5",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
    {
       id:31,
       title:"Salsas",
       price:"0.5",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
    {
       id:32,
       title:"Tocineta",
       price:"1.0",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
    {
       id:33,
       title:"Salsa de Aguacate",
       price:"1.0",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },{
       id:34,
       title:"Tajadas",
       price:"0.5",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
 
    {
@@ -275,21 +276,21 @@ items:[
       title:"Queso de mano",
       price:"1.0",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
    {
       id:32,
       title:"Tocineta",
       price:"1.0",
       category:"adic",
-      quantity:"1"
+      quantity:1
    },
-   /*{
+   {
       id:29,
      title:"Queso de mano",
       price:"1.0",
       category:"adic",
-      quantity:"1"
-   },*/
+      quantity:1
+   },
 
 ]}
