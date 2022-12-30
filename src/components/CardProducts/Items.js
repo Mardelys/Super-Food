@@ -7,7 +7,7 @@ items:[
       description:"1 Hamburguesa y 2 Perros calientes sencillos",
       price:"4.0",
       category:"combo",
-      quantity:"1"
+      quantity:1
    },
    {
       id:2,
@@ -16,7 +16,7 @@ items:[
       description:"3 Perros calientes sencillos",
       price:"4.0",
       category:"combo",
-      quantity:"1"
+      quantity:1
    },
   
    {

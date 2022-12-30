@@ -28,7 +28,7 @@ const ShoppingCar = () => {
                <div className="carshopping_center">
                   {cart.map((ProductItems) =>
                   <div className="carshopping_item" key={ProductItems.id}>
-                     <img className="img-shopṕing" src={require(`../CardProducts/images/img-${ProductItems.image.png}`)} alt="" />
+                     <img className="img-shopṕing" src={require(`../CardProducts/images/img-${ProductItems.image}.png`)} alt="" />
                      <div>
                         <h3>{ProductItems.title}</h3>
                         <p className="price">{ProductItems.price * ProductItems.quantity}$</p>
