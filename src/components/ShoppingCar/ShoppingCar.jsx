@@ -3,7 +3,10 @@ import './ShoppingCar.css'
 import {IoMdRemoveCircle, IoMdAddCircle,IoMdTrash} from 'react-icons/io'
 
 
+
 const ShoppingCar = () => {
+
+  // const [carshopping, setCarshopping] = value.carshopping
    return (
       <div className="cars-shopping">
          <h1 className="title-car">Orden</h1>

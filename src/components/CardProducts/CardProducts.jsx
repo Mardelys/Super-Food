@@ -1,14 +1,11 @@
-import React, {useContext} from "react";
+import React from "react";
 import './CardProducts.css'
 import {MdShoppingCart} from 'react-icons/md'
-import { DataContext} from "../context/DataProvider";
 
-function CardProducts({image, title, description, price}){
-   const value= useContext(DataContext)
-   const [products] = value.products
 
-  console.log(products);
-   
+
+const CardProducts = ({image, title, description, price}) => {
+
    return (
      
       <div className="container-card">
@@ -24,6 +21,7 @@ function CardProducts({image, title, description, price}){
    export default CardProducts;
 
 export function  CardProductsAd({title, price}){
+   
    return(
       <div className="product-adic">
          <h2 className="title-card"> {title}</h2>

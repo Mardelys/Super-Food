@@ -1,15 +1,12 @@
-import React from "react";
 import './CardProducts.css'
-
 import CardProducts, {CardProductsAd} from "./CardProducts"
 import { ProductItem } from "./Items";
 
 
 
+
 export default function Combos(){
 
-
-  
    return (
  <>
  <h1 className="titulo-section">Combos</h1>

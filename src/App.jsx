@@ -7,13 +7,12 @@ import ShoppingCar from './components/ShoppingCar/ShoppingCar';
 import Home from './components/Home/Home';
 import Combos, { Hamburguesas,Perros,Patacones,Arepas, Gya} from './components/CardProducts/Products';
 import { Routes, Route } from 'react-router-dom'
-import { DataProvider} from '../src/components/context/DataProvider'
+
 
 
 
 function App() {
    return (
-   <DataProvider>
    <div className="App">
          <Routes>
             <Route path='/' element={<Menu />}>
@@ -33,7 +32,7 @@ function App() {
          </Routes>
          
       </div>
-      </DataProvider>
+
    
 ); 
 }

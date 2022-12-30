@@ -1,4 +1,3 @@
-import React from 'react'
 import './MenuBannerFooter.css'
 import  LogoPrincipal from './images/Logo.png'
 import {AiFillHome} from 'react-icons/ai'
@@ -7,9 +6,12 @@ import {MdShoppingCart} from 'react-icons/md'
 import { Outlet,Link } from 'react-router-dom'
 import Footer from './Footer'
 
+
 function Menu(){
- return (
-<>
+   
+   return (
+   
+   <>
    <header>
       <div>
          <img src={LogoPrincipal} className="img-logo" alt="Logo Gustosos Ovejitos" />
@@ -29,6 +31,8 @@ function Menu(){
          </nav>
          
       </div>
+      <span className='item_total'>0 </span>
+      
    </header>
   
    <Outlet />
