@@ -1,10 +1,10 @@
-import React, {useContext} from "react";
+import React from "react";
 import './CardProducts.css'
-//import {Link } from 'react-router-dom'
+
 import CardProducts, {CardProductsAd} from "./CardProducts"
 import { ProductItem } from "./Items";
 
-import { DataContext} from "../context/DataProvider";
+
 
 export default function Combos(){
 
@@ -14,12 +14,13 @@ export default function Combos(){
  <>
  <h1 className="titulo-section">Combos</h1>
  <section className="container-cards-products">
-   {ProductItem.filter(product=> product.category === "combo" ).map(product=>(<CardProducts
+   {ProductItem.items.filter(product=> product.category === "combo" ).map(product=>(<CardProducts
    key={product.id}
     image={product.image}
     title={product.title}
     description={product.description}
-    price={product.price}/>))}
+    price={product.price}
+    quantity={product.quantity} />))}
    
  {/*  <CardProducts
   image="combo2"
@@ -57,7 +58,7 @@ export default function Combos(){
          <h1 className="titulo-section">Hamburguesas</h1>
 
          <section className="container-cards-products">
-         {ProductItem.filter(product=> product.category === "hamburguesa" ).map(product=>(<CardProducts
+         {ProductItem.items.filter(product=> product.category === "hamburguesa" ).map(product=>(<CardProducts
    key={product.id}
     image={product.image}
     title={product.title}

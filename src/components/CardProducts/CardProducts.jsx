@@ -7,9 +7,10 @@ function CardProducts({image, title, description, price}){
    const value= useContext(DataContext)
    const [products] = value.products
 
-console.log(products);
+  console.log(products);
    
    return (
+     
       <div className="container-card">
          <img  className="img-card" src={require(`./images/img-${image}.png`)} alt="" />
          <h2 className="title-card"> {title}</h2>
@@ -17,6 +18,7 @@ console.log(products);
          <p className="price-card">{price} $</p>
          <button className="btn-add">Agregar <MdShoppingCart className="sc-card"/> </button>
       </div>
+   
    )}
 
    export default CardProducts;

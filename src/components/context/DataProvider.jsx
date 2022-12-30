@@ -9,8 +9,13 @@ export const DataProvider = (props) =>{
    const [products, setProducts] = useState([])
 
    useEffect(() =>{
-      const product = ProductItem
-      setProducts(product)
+      const product = ProductItem.items
+      if(product){
+         setProducts(product)
+      }else{
+         setProducts([])
+      }
+
    },[])
    
    const value ={
