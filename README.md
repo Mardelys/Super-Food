@@ -35,6 +35,8 @@ En la primera página del mockups se observa el inicio/home el cual contiene la 
 
 **Planteamiento estructuras de carpetas**
 -Inicialmente se definieron las carpetas en 2 grandes en las cuales estilos estaban separados de componentes, sin embargo despues de investigar y durante el proceso de desarrollo del proyecto resulto ser mas facĺ crear una carpeta por componente, en esta se encontraban todos sus recursos especificos, componente, estilos e imágenes, así mismo se elaboraron 5 grandes carpetas:
+
+
 ![Captura de pantalla de 2022-12-30 23-40-11](https://user-images.githubusercontent.com/114613889/210125127-cb8f5fbe-b9f8-4a49-81c3-7d084c389bbd.png)
 
 - CardProducts(ruta: ../src/components/CardProducts):  está compuesta por La estructuras de las card de los productos(CardProducts.jsx), la data(Items.js), la asignación de las props y el map para recorrer el arreglo en el componente products(Product.jsx), tambien contiene los estilos e imágenes correspondientes.
@@ -43,16 +45,32 @@ En la primera página del mockups se observa el inicio/home el cual contiene la 
 
 - Category(ruta: ../src/components/Category):: Esta carpeta contiene 2 componentes, la estructuras de los botones de la categoría en un componente llamado ButtonCategory.jsx  y este componente es usado 6 veces para crear las 6 categorías de la aplicación, se encuentra en el documento Category.jsx, se uso react-router-dom para podercrear las rutas y filtrar las categorías.Tambien contiene sus estilos e imágenes correspondientes.
 
+
+
 ![Captura de pantalla de 2022-12-30 23-53-10](https://user-images.githubusercontent.com/114613889/210125360-2fc74613-aa4b-43a0-a47c-c5d20d6eaf0a.png)
 
 -Header-Footer(ruta: ../src/components/Header-Footer): esta carpeta contiene el header(menu) y el footer, en el header se utilizo react router dom para definir las rutas de las paginas a utilizar en la aplicación, home, category y Shoppingcart, contienen sus imágenes y estilos.
+
+
+
+
+
 ![Captura de pantalla de 2022-12-30 23-57-09](https://user-images.githubusercontent.com/114613889/210125446-f8435ea1-2a36-49d8-83b1-0916e7ef04c1.png)
 
 
 -Home(ruta: ../src/components/Home): esta carpeta contiene la sección principal que corresponde a la descripción del negocio, contiene imagenes y estilos, es un componente no funcional.
+
+
+
+
+
+
 ![Captura de pantalla de 2022-12-30 23-59-34](https://user-images.githubusercontent.com/114613889/210125493-2a7ddc3d-41df-4674-be7e-063f78f47dce.png)
 
 - ShoppinCar(ruta: ../src/components/ShoppingCar):: esta carpeta contiene el componente de Carrito de compra, donde se renderizarán los productos seleccionados por el usuario. este posee sus estilos.
+
+
+
 ![Captura de pantalla de 2022-12-31 00-02-41](https://user-images.githubusercontent.com/114613889/210125553-1d548e28-116a-43b1-b450-d9255f016a50.png)
 
 
@@ -60,8 +78,25 @@ En la primera página del mockups se observa el inicio/home el cual contiene la 
 
 -Componente App.jsx e index.js: el componente index posee la estructura con el html donde se encuentra un div con el id root, con el cual se hace referencia en App.jsx para renderizar toda nuestra aplicación
 
+
 -![Captura de pantalla de 2022-12-31 00-11-51](https://user-images.githubusercontent.com/114613889/210125775-fafb5d03-ad9b-460e-96ef-458b7e0f17ef.png)
 
 Carpeta padre components
 Carpetas hijas/hermanas: CardProducts,Category,Header-Footer,Home,ShoppingCar,Reducer.js(componente)
 Archivos hermanos de components: App.jsx,Index.js,y una carpeta styles que contiene los estilos de app e index.
+
+
+**Desarrollo del proyecto y mi experiencia con el usuario**
+
+Para el desarrollo del proyecto realicé los mockups y prototipo a tiempo puesto que mi cliente tenía marca personal, se modificó un poco el logo, y se diseñaron imágenes de combos con recursos libres de derechos de autor en internet, mi clienta Lilimar González estuvo dispuesta a colaborarme en todo momento, me dió su menú y me proporcionó la mayoría de las fotos utilizadas para sus productos.
+
+Al recibir el prototipo le gusto, más tuve que explicarle la idea de lo que significaba la sección larga de productos que diseñé, sin embargo no hubo quejas, solo sugerencias con respecto a que quería sus fotos.
+
+Con respecto a las fotos, demoró varios días en entregarmelas por que estaba ocupada, igualmente seguí con el proyecto con las imagenes de prueba que use en el mockups.
+
+Ya finalizado el proyecto recibí esta opinión de mi clienta, quedando contenta con lo que se desarrollo.
+
+
+![Captura de pantalla de 2022-12-31 00-25-07](https://user-images.githubusercontent.com/114613889/210126318-18cbd969-bed7-450b-955b-3f51d9945f55.png)
+
+
