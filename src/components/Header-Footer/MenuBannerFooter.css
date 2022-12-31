@@ -9,7 +9,7 @@ body{
    width: 100vw;
 }
 header div{
-   width: 100%;
+   width: 100vw;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    align-items: center;
@@ -67,15 +67,27 @@ header div{
    color: #03d60e;
    font-size: clamp(1.8rem, 3vw, 4rem);
 }
-.icon-li{
-   font-size: clamp(1.8rem, 3vw, 2.2rem);
+.icon-li, .iconI{
+   font-size: clamp(1.8rem, 3vw, 4rem);
    color: #ff8000;
+   margin-left:5% ;
+}
+.container-icon{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+.contacto_footer{
+ font-family: 'Kavoon';
+font-weight: 100;
+letter-spacing: 1px;
 }
 
 footer{ 
    width: 100%;
    height: 100%;
    display:flex;
+   justify-content: space-around;
    background-color: #000;
    color: rgb(192, 189, 189);
    text-align: center;

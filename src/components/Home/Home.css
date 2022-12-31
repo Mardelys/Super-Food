@@ -18,7 +18,7 @@
    margin: auto;
    padding: 20px;
    text-align: justify;
-   font-size: clamp(1rem, 2.2vw, 2rem);
+   font-size: clamp(1rem, 2.2vw, 1.6rem);
    text-indent: 20px;
    font-family: 'Dosis';
 }
@@ -80,3 +80,8 @@
    background-color: #f8e0b3;
 }
 
+@media (min-width: 800px){
+   .p-home{
+      width: 80%;
+   }
+}
