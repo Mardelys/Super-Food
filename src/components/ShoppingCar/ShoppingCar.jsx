@@ -59,7 +59,7 @@ this element takes the quantity from the json, by default it is 1 but in this se
                   <h5>{`Productos seleccionados: ${totalItems}`}</h5>
                   <h3>{total} $</h3>{/* react whatsapp is imported to be able to redirect the purchase of the products, thus putting the customer in contact with the seller*/ }
                   <ReactWhatsapp number="57-301-649-8367" message={`Hola Lilimar, espero estés bien, me interesa hacerte el pedido de los siguientes productos:${cart.map((ProductItems) => 
-                     "" + ProductItems.title +  "Cantidad de Productos: " + ProductItems.quantity + "Valor por unidad: "  + ProductItems.price
+                     "   " + ProductItems.title + "   " +  "Cantidad de Productos: "+ "   " + ProductItems.quantity + "   " + "Valor por unidad: " + "   "  + ProductItems.price + "$" +  "   "
   )}  Valor Total a pagar : $${total}`} > <button className="btn btn-buy">Confirmar pedido</button></ReactWhatsapp>
                </div>
             </div>
