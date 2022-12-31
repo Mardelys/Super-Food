@@ -1,3 +1,5 @@
+
+//a constant reducer is created that takes cart as parameters or properties, this will handle the total functionality of the shopping cart
 const Reducer = (cart=[], action) => {
    if (action.type === 'ADD'){
        let tempcraft=cart.filter((ProductItems)=>ProductItems.id===action.payload.id)
@@ -7,6 +9,7 @@ const Reducer = (cart=[], action) => {
            return cart;
        }
    }
+   //This constant is made up of conditionals, it contains the add, remove, subtract and add functions, and everything with respect to the array of objects, which determines the number of products we have in ecommerce
    if (action.type === 'REMOVE'){
        return cart.filter((ProductItems) => ProductItems.id !== action.payload.id);
    }

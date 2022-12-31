@@ -13,7 +13,8 @@ import { Routes, Route} from 'react-router-dom'
 
 function App() {
    return (
-   <div className="App">
+   <div className="App">{/**
+react router is imported to make the routes that will give dynamism to the page, in my case, the categories are defined by routes and it works correctly */}
 
          <Routes>
             <Route path='/' element={<Menu />}>

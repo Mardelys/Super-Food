@@ -1,10 +1,13 @@
-import React from "react";
+import React from "react";//
+//dependencies are imported
 import './Home'
 import Imglogos from './images/imglogo.jpg'
 import  LogoPrincipal from './images/Logo.png'
 import { Outlet, Link } from 'react-router-dom'
 import './Home.css'
 
+
+//se crea un componente home el cual no tiene funcionaliudad solo nos muestra información acerca del negocio
 function Home() {
    return (
       <>

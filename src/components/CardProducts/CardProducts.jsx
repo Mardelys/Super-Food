@@ -1,3 +1,4 @@
+//import necessary dependencies, paths, components and styles
 import React from "react";
 import './CardProducts.css'
 import {MdShoppingCart} from 'react-icons/md'
@@ -6,7 +7,7 @@ import {useSelector, useDispatch}from 'react-redux'
 import { ProductItems} from './Items'
 
 
-
+//Two components are created that correspond to the product cards, with their respective props.
 const CardProducts = ({id,image, title, description, price}) => {
 //Reduce
     const cart = useSelector((state)=>state)
@@ -22,7 +23,6 @@ const CardProducts = ({id,image, title, description, price}) => {
       </div>
    
    )}
-
    export default CardProducts;
 
 export function  CardProductsAd({id,title, price}){

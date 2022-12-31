@@ -1,3 +1,6 @@
+
+//
+//dependencies are imported, react icons logos, react router dom routes
 import './MenuBannerFooter.css'
 import  LogoPrincipal from './images/Logo.png'
 import {AiFillHome} from 'react-icons/ai'
@@ -7,8 +10,10 @@ import { Outlet,Link, NavLink} from 'react-router-dom'
 import Footer from './Footer'
 
 
+
+
+//a menu function is created which contains the main routes, which we can call pages, these are 3 views, home, categories and shopping cart
 function Menu(){
-   
    return (
    
    <>
@@ -23,6 +28,7 @@ function Menu(){
                </li>
                <li>
                   <NavLink to="/shoppingcar"><MdShoppingCart className='icon-li'/></NavLink>
+                  
                </li>
                {<li>
                   <a href='https://wa.link/2ecc6b'><IoLogoWhatsapp className='icon'/></a>
@@ -31,10 +37,10 @@ function Menu(){
          </nav>
          
       </div>
-      <span className='item_total'>0 </span>
       
-   </header>
-  
+   </header>{/**
+the menu will use a react routerdom component to render the routes in a specific section of the page, this is below the header and between the footer, which are specified in the component */}
+   
    <Outlet />
    <Footer />
    

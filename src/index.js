@@ -12,7 +12,7 @@ import Reducer from './components/Reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <React.StrictMode>
+   <React.StrictMode>{/**the provider tag is used which allows linking redux with react, it has a store which allows the components to be subject to context changes in the flow of the application */}
       <Provider store={store}>
       <BrowserRouter>
          <App />

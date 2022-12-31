@@ -1,3 +1,5 @@
+//
+//array of objects with the properties and their values ​​to replace in the components
 export const ProductItems ={
 items:[
    {

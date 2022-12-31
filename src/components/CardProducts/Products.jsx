@@ -1,16 +1,25 @@
+//the necessary dependencies are imported
+
 import './CardProducts.css'
 import CardProducts, {CardProductsAd} from "./CardProducts"
 import { ProductItems } from "./Items";
 
 
 
+//
+//To define the routes I used separate functions so that it will render only the cards with a specific category, in this way it draws only the cards corresponding to the category
 
+
+//
+//there are 6 functions in total
 export default function Combos(){
   // console.log(ProductItems);
    return (
  <>
  <h1 className="titulo-section">Combos</h1>
  <section className="container-cards-products">
+
+   {/* Through this items.filtrer I was able to filter the products by categories specifying in the conditional which they belong to, the map method is also used to draw the card with its props referenced in the json*/}
    {ProductItems.items.filter(product=> product.category === "combo" ).map(product=>(<CardProducts
     key={product.id}
     id={product.id}

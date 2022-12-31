@@ -4,7 +4,8 @@ import {Outlet,Link } from 'react-router-dom'
 import ButtonCategory from "./ButtonCategory";
 function Category(){
 
-
+//
+//A component is created where the category button component is used, repeating it for the number of categories that are in the app and its proper props are passed to it, including the routes to which each button directs us
    return (
      <>
        <h1 className="title-category">Categorías</h1>

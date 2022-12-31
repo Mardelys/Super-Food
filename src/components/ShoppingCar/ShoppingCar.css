@@ -30,7 +30,8 @@
    
 }
 .carshopping_item img{
-   width:9rem ;
+   width:8rem ;
+   margin-right: 5px;
 }
 .carshopping_item h3{
    margin-top: .7rem;
@@ -38,6 +39,7 @@
    font-size: 1.5rem;
    font-weight: 600;
 }
+
 .carshopping_item .price{
    color: #ff8000;
    font-weight: 600;
@@ -49,7 +51,13 @@
    width: 30px;
    height: 30px;
    cursor: pointer;
+   border: none;
+   padding: 2px;
    
+}
+.carshopping_item button{
+   border: none;
+   background-color: #fff;
 }
 .n-items-select{
    display: flex;
@@ -74,15 +82,22 @@
    font-weight: 700;
    letter-spacing: 1px;
 }
+button{
+   border: none;
+
+}
 .carshopping_total .btn{
    display: inline-block;
-   padding: .3rem 1rem;
+   padding: .8rem 1rem;
    font-size: 1.2rem;
    border: none;
    font-weight: 700;
    background-image: linear-gradient( 178.2deg,  #dde10a 2.7%, rgba(235,1,1,1) 102.9% );
    border-radius: 10px;
    cursor: pointer;
+   font-family: 'Kavoon';
+   letter-spacing: 1px;
+   font-weight: 100;
 }
 .cars-shopping .p-info{
    color: #777474;

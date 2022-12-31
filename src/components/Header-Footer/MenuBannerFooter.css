@@ -18,6 +18,20 @@ header div{
    padding: 5px;
    
 }
+
+.total_item{
+   width: 20px;
+   height: 20px;
+   background-color: #03d60e;
+   
+}
+.total_item::after{
+   content: '';
+   width: 20px;
+   height: 20px;
+   color: #000;
+
+}
 .img-logo{
    width: 105px;
    margin: 0 5%;
@@ -26,7 +40,7 @@ header div{
 .btn-product{
    width: 100%;
    height: 35%;
-   font-size: clamp(1rem, 2vw, 1.1rem);
+   font-size: clamp(1rem, 2vw, 2rem);
    background-image: linear-gradient( 178.2deg,  #dde10a 2.7%, rgba(235,1,1,1) 102.9% );
    border: none;
    border-radius: 20px;
