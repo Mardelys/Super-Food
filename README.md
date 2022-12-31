@@ -1,5 +1,5 @@
 
-#Gustosos Ovejitos
+# Gustosos Ovejitos
 
 Gustosos Ovejitos es un emprendimiento de Lilimar Gonzalez, vende comida rápida, maneja 5 categorías de comidas y 1 de bebidas, trabaja y vive en la ciudad de Cabimas /Estado Zulia -Venezuela vive en CALLE SAN RAFAEL, SECTOR 5 BOCAS. CASA #54, trabaja en eun carrito de comida que coloca frente a su casa de Jueves a Domingo en el  HORARIO: 6:00pm a 11:00pm, las redes sociales que maneja es el facebook(https://www.facebook.com/lilimar.arrieta) e instagram (https://www.instagram.com/gustososovejitos_/?hl=es).
 
@@ -15,7 +15,7 @@ El desarrollo debe contar con filtros de categorías para los diversos productos
 El carrito debe mostrar la lista de productos seleccionados por el usuario final El carrito debe tener botones para agregar productos uno en uno y también para quitarlos del carrito de compra El carrito debe mostrar la sumatoria del valor de todos los productos El carrito debe tener un Botón de comprar que nos conduzca a WhatsApp para solicitar el domicilio trayendo toda la informacion del resumen del carrito de compra.
 
 
-#Mockups First-Mobile
+# Mockups First-Mobile
 
 Los mockups se realizaron con las especificaciones dadas por el cliente, los colores elegidos por él, el logo suministrado y además el menú en el que se basa la aplicación, definiendo 6 categorias.
 En la primera página del mockups se observa el inicio/home el cual contiene la información del negocio, de alli un botón redirecciona a la seccion de categorías que es la segunda vista que se observa en el mockup, para la 3ra vista que se observa, es una vista larga porque se quiso hacer entender que cuando se clickaran las categorias se haría el despliegue de las cards correspondientes por categorías, no se hizo cada card abierta para no repetir el diseño, y por último la vista del carrito de compras donde se pueden modificar los productos (Agregar, quitar y eliminar productos seleccionados) tambien poseeun botón que tendrá el fin de redireccionar al cliente con el vendedor.
@@ -49,7 +49,7 @@ En la primera página del mockups se observa el inicio/home el cual contiene la 
 
 ![Captura de pantalla de 2022-12-30 23-53-10](https://user-images.githubusercontent.com/114613889/210125360-2fc74613-aa4b-43a0-a47c-c5d20d6eaf0a.png)
 
--Header-Footer(ruta: ../src/components/Header-Footer): esta carpeta contiene el header(menu) y el footer, en el header se utilizo react router dom para definir las rutas de las paginas a utilizar en la aplicación, home, category y Shoppingcart, contienen sus imágenes y estilos.
+- Header-Footer(ruta: ../src/components/Header-Footer): esta carpeta contiene el header(menu) y el footer, en el header se utilizo react router dom para definir las rutas de las paginas a utilizar en la aplicación, home, category y Shoppingcart, contienen sus imágenes y estilos.
 
 
 
@@ -58,7 +58,7 @@ En la primera página del mockups se observa el inicio/home el cual contiene la 
 ![Captura de pantalla de 2022-12-30 23-57-09](https://user-images.githubusercontent.com/114613889/210125446-f8435ea1-2a36-49d8-83b1-0916e7ef04c1.png)
 
 
--Home(ruta: ../src/components/Home): esta carpeta contiene la sección principal que corresponde a la descripción del negocio, contiene imagenes y estilos, es un componente no funcional.
+- Home(ruta: ../src/components/Home): esta carpeta contiene la sección principal que corresponde a la descripción del negocio, contiene imagenes y estilos, es un componente no funcional.
 
 
 
@@ -74,9 +74,9 @@ En la primera página del mockups se observa el inicio/home el cual contiene la 
 ![Captura de pantalla de 2022-12-31 00-02-41](https://user-images.githubusercontent.com/114613889/210125553-1d548e28-116a-43b1-b450-d9255f016a50.png)
 
 
--Componente reducer(ruta: ../src/components/Reducer.js): este componente contiene las funciones que lleva a cabo el carrito de compras, tales como agregar productos, remover, sumar y restar productos.Reduces.Js.
+- Componente reducer(ruta: ../src/components/Reducer.js): este componente contiene las funciones que lleva a cabo el carrito de compras, tales como agregar productos, remover, sumar y restar productos.Reduces.Js.
 
--Componente App.jsx e index.js: el componente index posee la estructura con el html donde se encuentra un div con el id root, con el cual se hace referencia en App.jsx para renderizar toda nuestra aplicación
+ - Componente App.jsx e index.js: el componente index posee la estructura con el html donde se encuentra un div con el id root, con el cual se hace referencia en App.jsx para renderizar toda nuestra aplicación
 
 
 -![Captura de pantalla de 2022-12-31 00-11-51](https://user-images.githubusercontent.com/114613889/210125775-fafb5d03-ad9b-460e-96ef-458b7e0f17ef.png)
