@@ -5,7 +5,7 @@ items:[
    {
       id:1,
       image:"combo1",
-      title:"Combo #1",
+      title:"Combo N°1",
       description:"1 Hamburguesa y 2 Perros calientes sencillos",
       price:"4.0",
       category:"combo",
@@ -14,7 +14,7 @@ items:[
    {
       id:2,
       image:"combo2",
-      title:"Combo #2",
+      title:"Combo N°2",
       description:"3 Perros calientes sencillos",
       price:"4.0",
       category:"combo",
@@ -24,7 +24,7 @@ items:[
    {
       id:3,
       image:"combo3",
-      title:"Combo #3",
+      title:"Combo N°3",
       description:"4 Hamburguesas sencillas y 2 Perros calientes sencillos",
       price:"8.0",
       category:"combo",
@@ -33,7 +33,7 @@ items:[
    {
       id:4,
       image:"combo4",
-      title:"Combo #4",
+      title:"Combo N°4",
       description:"4 Hamburguesas sencillas y 1 refresco",
       price:"8.0",
       category:"combo",
@@ -43,7 +43,7 @@ items:[
    {
       id:5,
       image:"combo5",
-      title:"Combo #5",
+      title:"Combo N°5",
       description:"5 Perros calientes sencillos y 1 refresco",
       price:"8.0",
       category:"combo",
@@ -52,7 +52,7 @@ items:[
    {
       id:6,
       image:"combo6",
-      title:"Combo #6",
+      title:"Combo N°6",
       description:" 2 Hamburguesas sencillas, 3 Perros calientes sencillos y 1 refresco",
       price:"8.0",
       category:"combo",
