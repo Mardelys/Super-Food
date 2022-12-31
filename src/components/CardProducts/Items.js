@@ -60,7 +60,7 @@ items:[
    },
    {
       id:7,
-      image:"gustosa1",
+      image:"sencilla",
       title:"H. Sencilla de Carne",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, carne, lechuga, tomate y papitas. ",
       price:"2.5",
@@ -69,7 +69,7 @@ items:[
    },
    {
       id:8,
-      image:"gustosa1",
+      image:"sencilla",
       title:"H. Sencilla de Pollo",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Pollo, lechuga, tomate y papitas. ",
       price:"3.5",
@@ -78,7 +78,7 @@ items:[
    },
    {
       id:9,
-      image:"gustosa1",
+      image:"sencilla",
       title:"H. Sencilla de Lomito",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Lomito, lechuga, tomate y papitas. ",
       price:"3.5",
@@ -86,7 +86,7 @@ items:[
       quantity:1
    },{
       id:10,
-      image:"gustosa",
+      image:"gustosa1",
       title:"H. Gustosa de Carne",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Carne, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"5.0",
@@ -94,7 +94,7 @@ items:[
       quantity:1
    },{
       id:11,
-      image:"gustosa",
+      image:"gustosa1",
       title:"H. Gustosa de Pollo",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Pollo, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"6.0",
@@ -102,7 +102,7 @@ items:[
       quantity:1
    },{
       id:12,
-      image:"gustosa",
+      image:"gustosa1",
       title:"H. Gustosa de Lomito",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, Lomito, tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"6.0",
@@ -110,7 +110,7 @@ items:[
       quantity:1
    },{
       id:13,
-      image:"gustosa1",
+      image:"gustosa",
       title:"H. Ovejitos 2 carnes",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"8.5",
@@ -118,7 +118,7 @@ items:[
       quantity:1
    },{
       id:14,
-      image:"gustosa1",
+      image:"gustosa",
       title:"H. Ovejitos 3 carnes",
       description:"Ingredientes: Mayonesa, mostaza, salsa de tomate, (Carne, pollo o Lomito), tocineta, lechuga, tomate, queso de mano, papitas y papas fritas. ",
       price:"10.0",

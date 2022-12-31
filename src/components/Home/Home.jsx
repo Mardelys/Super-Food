@@ -32,6 +32,11 @@ function Home() {
          <img  className="img-food" src={require("./images/home1.png")} alt="" />
          <img  className="img-food" src={require("./images/home2.png")} alt="" />
          <img  className="img-food" src={require("./images/home3.png")} alt="" />
+         
+         </div>
+         <h2 className="title-2">Ambiente Familiar, no te lo pierdas contactanos</h2>
+         <div className="container-img">
+            <img  className="img-food" src={require("./images/instagram.jpeg")} alt="" />
          </div>
          <Link to="/combos"><button className='btn-product fixed'>Haz tu Pedido</button></Link>
       </section>

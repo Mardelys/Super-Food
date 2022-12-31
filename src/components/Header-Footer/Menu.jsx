@@ -8,7 +8,8 @@ import {IoLogoWhatsapp} from 'react-icons/io'
 import {MdShoppingCart} from 'react-icons/md'
 import { Outlet,Link, NavLink} from 'react-router-dom'
 import Footer from './Footer'
-
+import Banner from './images/banner1.png'
+import Bannerr from './images/banner2.png'
 
 
 
@@ -37,8 +38,11 @@ function Menu(){
          </nav>
          
       </div>
-      
-   </header>{/**
+     
+   </header>
+   <div className='container-banner'>
+      <img src={Banner} className="banner_1" alt="" />
+      </div> {/**
 the menu will use a react routerdom component to render the routes in a specific section of the page, this is below the header and between the footer, which are specified in the component */}
    
    <Outlet />
