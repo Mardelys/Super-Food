@@ -58,10 +58,9 @@ this element takes the quantity from the json, by default it is 1 but in this se
                <div className="carshopping_total">{/*refers to the total number of items selected by the user,*/ }
                   <h5>{`Productos seleccionados: ${totalItems}`}</h5>
                   <h3>{total} $</h3>{/* react whatsapp is imported to be able to redirect the purchase of the products, thus putting the customer in contact with the seller*/ }
-                  <ReactWhatsapp number="57-301-649-8367" message={`Hola Lilimar, espero estés bien, me interesa hacerte el pedido de los siguientes productos:
-                   ${cart.map((ProductItems) => 
-                     "%0A%0A*- " + ProductItems.title+  "%0ACantidad de Productos: " + ProductItems.quantity + "%0AValor por unidad: "  + ProductItems.price
-  )}  %0A%0AValor Total a pagar : $${total}`} > <button className="btn btn-buy">Confirmar pedido</button></ReactWhatsapp>
+                  <ReactWhatsapp number="57-301-649-8367" message={`Hola Lilimar, espero estés bien, me interesa hacerte el pedido de los siguientes productos:${cart.map((ProductItems) => 
+                     "" + ProductItems.title +  "Cantidad de Productos: " + ProductItems.quantity + "Valor por unidad: "  + ProductItems.price
+  )}  Valor Total a pagar : $${total}`} > <button className="btn btn-buy">Confirmar pedido</button></ReactWhatsapp>
                </div>
             </div>
          <p className="p-info">*Esta aplicación no posee pasarela de pagos, por lo tanto al confirmar su pedido será puesto en contacto con el propietario del negocio vía Whatsapp.</p>
