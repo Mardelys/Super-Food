@@ -25,16 +25,17 @@ const CardProducts = ({id,image, title, description, price}) => {
    )}
    export default CardProducts;
 
-export function  CardProductsAd({id,title, price}){
+export function  CardProductsAd({id,image,title, price}){
 //Reduce
     const cart = useSelector((state)=>state)
    console.log(cart)
     const dispatch = useDispatch()
    return(
       <div className="product-adic">
+         <img  className="img-card-adic" src={require(`./images/img-${image}.png`)} alt="" />
          <h2 className="title-card"> {title}</h2>
          <p className="price-card1">{price} $</p>
-         <button className="btn-add" onClick={()=>dispatch({type:'ADD', payload:ProductItems.items[id -1]})}>Agregar <MdShoppingCart className="sc-card"/> </button>
+         <button className="btn-add btn-adic" onClick={()=>dispatch({type:'ADD', payload:ProductItems.items[id -1]})}>Agregar <MdShoppingCart className="sc-card"/> </button>
       </div>
    )
 }

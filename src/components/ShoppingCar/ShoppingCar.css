@@ -107,3 +107,12 @@ button{
 .carshopping_total .btn:hover{
    background: #dde10a;
 }
+@media (min-width: 800px){
+   .car-shopping{
+      width: 60%;
+   }
+   .carshopping_item .remove_item .ico{
+      width: 80px;
+   }
+   
+}

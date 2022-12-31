@@ -220,12 +220,14 @@ items:[
       quantity:1
    },{
       id:27,
+      image:"huevo",
       title:"Huevo",
       price:"0.3",
       category:"adic",
       quantity:1
    },{
       id:28,
+      image:"papas",
       title:"Papas Fritas",
       price:"2.5",
       category:"adic",
@@ -233,6 +235,7 @@ items:[
    },
    {
       id:29,
+      image:"quesom",
       title:"Queso de mano",
       price:"1.0",
       category:"adic",
@@ -240,6 +243,7 @@ items:[
    },
    {
       id:30,
+      image:"adare",
       title:"Arepa",
       price:"0.5",
       category:"adic",
@@ -247,6 +251,7 @@ items:[
    },
    {
       id:31,
+      image:"salsas",
       title:"Salsas",
       price:"0.5",
       category:"adic",
@@ -254,6 +259,7 @@ items:[
    },
    {
       id:32,
+      image:"tocineta",
       title:"Tocineta",
       price:"1.0",
       category:"adic",
@@ -261,38 +267,19 @@ items:[
    },
    {
       id:33,
+      image:"aguacate",
       title:"Salsa de Aguacate",
       price:"1.0",
       category:"adic",
       quantity:1
    },{
       id:34,
+      image:"tajadas",
       title:"Tajadas",
       price:"0.5",
       category:"adic",
       quantity:1
    },
 
-   {
-      id:29,
-      title:"Queso de mano",
-      price:"1.0",
-      category:"adic",
-      quantity:1
-   },
-   {
-      id:32,
-      title:"Tocineta",
-      price:"1.0",
-      category:"adic",
-      quantity:1
-   },
-   {
-      id:29,
-     title:"Queso de mano",
-      price:"1.0",
-      category:"adic",
-      quantity:1
-   },
 
 ]}

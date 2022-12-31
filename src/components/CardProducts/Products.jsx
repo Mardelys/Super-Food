@@ -124,6 +124,7 @@ export function Gya(){
   {ProductItems.items.filter(product=> product.category === "adic").map(product=>(<CardProductsAd
    key={product.id}
    id={product.id}
+   image={product.image}
    index={product.index}
    title={product.title}
    price={product.price}/>))}
