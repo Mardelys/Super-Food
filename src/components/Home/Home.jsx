@@ -1,8 +1,8 @@
 import React from "react";//
 //dependencies are imported
 import './Home'
-import Imglogos from './images/imglogo.jpg'
-import  LogoPrincipal from './images/Logo.png'
+import Imglogos from './images/imglogo.jpeg'
+import  LogoPrincipal from './images/Logo.jpeg'
 import { Outlet, Link } from 'react-router-dom'
 import './Home.css'
 
@@ -13,15 +13,15 @@ function Home() {
       <>
       <Outlet />
       <section className="container-about-us">
-         <h1 className="title-home">Gustosos Ovejitos</h1>
+         <h1 className="title-home">Super Food</h1>
          <div className="about-us">
-            <p className="p-home">       Gustosos ovejitos es un negocio de comida rápida con una gran historia detrás, inicialmente llevaba como nombre “Date un gusto” era el sitio preferido de muchas personas para compartir con familia y amigos, pero se decidió hacer una fusión con otro gran exponente de comida rapida en Cabimas, conocido como “Ovejo’s Burguer” de allí nació Gustosos Ovejitos.
-            </p>
+            <p className="p-home">       Tu Dosis Diaria de Sabor y Felicidad!
+¿Cansado de la comida rápida aburrida y sin sabor? ¡Super Food ha llegado para revolucionar tu experiencia culinaria! Olvídate de las hamburguesas grasosas y las pizzas insípidas, porque Super Food te ofrece un menú fresco, saludable y delicioso que te dejará con ganas de más.</p>
 
             <img src={Imglogos} className="logo_fusion" alt="Logo Gustosos Ovejitos" />
             <div className="p-logo">
                <p className="p-home">Somos más que un puesto de comida rápida, el objetivo es brindar calidad, excelente atención al cliente y sobre todo momentos inolvidables.
-               Prueba nuestros productos y deleitate con el mejor sabor de Cabimas y sobre todo al mejor precio.</p>
+               Prueba nuestros productos y deleitate con el mejor sabor de Bogotá D.C y sobre todo al mejor precio.</p>
             
                <img src={LogoPrincipal} className="lgfusion" alt="Logo Gustosos Ovejitos" />
             </div>

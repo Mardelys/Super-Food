@@ -14,7 +14,7 @@ header div{
    grid-template-columns: repeat(3, 1fr);
    align-items: center;
    justify-items: center;
-   background-color: #000;
+background:  #010138 78%;
    padding: 5px;
    
 }
@@ -27,33 +27,38 @@ header div{
 .total_item{
    width: 20px;
    height: 20px;
-   background-color: #03d60e;
+   background-color: #028009;
    
 }
 .total_item::after{
    content: '';
    width: 20px;
    height: 20px;
-   color: #000;
+   color:  #1d1e1f 78%;
 
 }
 .img-logo{
    width: 105px;
    margin: 0 5%;
+   border-radius: 100%;
 }
 
 .btn-product{
    width: 100%;
    height: 35%;
    font-size: clamp(1rem, 2vw, 2rem);
-   background-image: linear-gradient( 178.2deg,  #dde10a 2.7%, rgba(235,1,1,1) 102.9% );
+   background: #fff;
    border: none;
    border-radius: 20px;
    font-family: 'Kavoon';
    cursor: pointer;
    padding: 5px 20px;
    animation: pulse 5s infinite;
+   color: rgb(24, 170, 255);
+   text-shadow: 7px 0px 15px rgb(116, 227, 255);
+ 
 }
+
 @keyframes pulse{
    0%{
       transform: scale(0.90);
@@ -79,12 +84,12 @@ header div{
 }
 
 .icon{
-   color: #03d60e;
+   color: #04ec10;
    font-size: clamp(1.8rem, 3vw, 4rem);
 }
 .icon-li, .iconI{
    font-size: clamp(1.8rem, 3vw, 4rem);
-   color: #ff8000;
+   color: #ffffff;
    margin-left:5% ;
 }
 .container-icon{
@@ -103,7 +108,7 @@ footer{
    height: 100%;
    display:flex;
    justify-content: space-around;
-   background-color: #000;
+   background:  #010138 78%;
    color: rgb(192, 189, 189);
    text-align: center;
    align-items: center;
@@ -113,13 +118,14 @@ footer{
 
 @media (min-width: 800px){
    .banner_1 {
-      width: 60%;
+      width: 90%;
       height: 320px;
      align-content: center;
+     box-shadow: #1d1e1f 5 5 5;
    }
    .container-banner{
       text-align: center;
-      background-color: #000;
+      background:  #010138;
    }
    
 }

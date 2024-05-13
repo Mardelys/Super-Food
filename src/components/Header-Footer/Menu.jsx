@@ -2,7 +2,7 @@
 //
 //dependencies are imported, react icons logos, react router dom routes
 import './MenuBannerFooter.css'
-import  LogoPrincipal from './images/Logo.png'
+import  LogoPrincipal from './images/Logo.jpeg'
 import {AiFillHome} from 'react-icons/ai'
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {MdShoppingCart} from 'react-icons/md'
